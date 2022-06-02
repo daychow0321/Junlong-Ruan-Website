@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="David Ruan, Junlong Ruan">
+<meta name="Description" content="Junlong (David)'s personal website'">
+
+<!--Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="css/custom.css" rel="stylesheet" >
+<link href="css/W3School.css" rel="stylesheet" >
+<title>David Ruan's Portfolio</title>
+</head>
+
+<body class="">
+
+<!-- Navigation Bar-->
+<nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0" style="background-color:white; height:100px;">
+  <div class="container-fluid"><a class="navbar-brand" href="index.html"><img src="Logo/logo simplified.svg"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="mt-3"><h1>David Ruan</h1></div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
+          
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Projects </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="workdetail.html">Mock Business Website</a></li>
+            <li><a class="dropdown-item disabled" href="#">COVID-19 Elevator Remote</a></li>
+            <li><a class="dropdown-item disabled" href="#">UTM iCCIT Website Rennovation</a></li>
+            <li><a class="dropdown-item disabled" href="#">Personal Websites</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="projects.html">View All Projects</a></li>
+          </ul>
+        </li><li class="nav-item"> <a class="nav-link" href="resume.html">Resume</a> </li>
+        
+        <li class="nav-item"><a class="nav-link" href="process.html">Process</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+
+    <!--Title Banner-->
+<div class="container-fluid title-banner" style="padding: 60px 200px; text-align:left;">
+ <!--Text animations from https://tobiasahlin.com/moving-letters/-->
+    <h1 class="ml11 fw-bolder" style="font-size: 6em;">
+        <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letters">My Projects</span>
+        </span>
+        <a href="#projects">
+    <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-down-square-fill"></i>
+                Proceed
+              </button>
+        </a>
+    </h1>
+</div>
+   
+    
+    
+    <div id="projects" class="container-fluid" style="padding: 60px 200px; text-align:left;">
+            <h1 class="fw-bolder" style="font-size: 3em;">My Projects</h1>
+        <p style="font-size: 1.3em;">In my opinion, your works are the best ways to represent your skills, qualities and experiences.</p>
+            <p style="font-size: 1.1em;">In this page, you can preview some works that I have done in or outside of school. <br> These projects include not only individual works but also projects that are done in groups. <br>For now only the <a href="workdetail.html">Mock Business Website</a> is available for view in details</p>
+    </div>
+
+<div class="h-divider">
+    <hr/>
+    </div>
+    
+    
+    
+<!-- Carousel part -->
+    
+<div style="padding-top: 20px; padding-bottom: 20px;  background-image: url('images/taylor-leopold-COE-CIGj8VA-unsplash.jpg'); height: 100%;
+    object-fit: cover;
+    position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
+    <div class="container-fluid"  style="padding: 40px 200px;text-decoration: underline;"><h3>Project Preview Slideshow</h3></div>
+    <div id="demo" class="carousel slide container-fluid" data-bs-ride="carousel"> 
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active project-img"><a href="workdetail.html"><img src="images/Mock Business Website.png" alt="Mock Business Website" class="d-block w-100 carousel-images"> <h3 class="carousel-caption blur">Mock Business Website</h3></a> </div>
+
+        <div class="carousel-item"><a href="#craigslist-project"> <img src="images/CCT480 Home.png" alt="Craigslist Event Calendar Redesign" class="d-block w-100 carousel-images"><h3 class="carousel-caption blur">Craigslist Calendar Redesign</h3></a> </div>
+            
+        <div class="carousel-item"> <a href="#elevator-project"><img src="images/CCT380 Preview.png" alt="Elevator Remote Project" class="d-block w-100 carousel-images"><h3 class="carousel-caption blur">Elevator Remote Project</h3></a> </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev"> <span class="carousel-control-prev-icon"></span> </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next"> <span class="carousel-control-next-icon"></span> </button>
+    </div>
+</div>
+
+    
+
+    <!-- The Modal -->
+<div id="photoModal" class="photogrid-modal">
+            <span class="modal-close">&times;</span>
+            <img class="photogrid-modal-content" id="img01">
+</div>
+    
+    
+<!--CCT480 Previews-->
+<div class="container mt-5 text-center">
+    <h3>Mock Business Website Project</h3>
+    <p>The project is about starting a mock business website via WordPress.<br> I decided to run a mechanical keyboard store. </p>
+  <div class="row">
+    <div class="col-lg-4 p-3"> <img id="modal-img" class="modal-images img-fluid" src="images/Mock Business Website.png" alt="Mock Mechanical Keyboard Store Website">
+      <h4>Home Page</h4>
+        <p>The home page starts with a greeting banner of me typing on my keyboard</p>
+    </div>
+    <div class="col-lg-4 p-3"> <img id="modal-img" class="modal-images img-fluid" src="images/CCT460 Store.png" alt="Store Page">
+      <h4>Store Page</h4>
+        <p>This is the store page where customers would be purchasing my products</p>
+    </div>
+     <div class="col-lg-4 p-3"> <img id="modal-img" class="modal-images img-fluid" src="images/CCT460 Blogs.png" alt="Blogs Page">
+      <h4>Blogs Page</h4>
+        <p>Blogs are used to update products information(Restocks, pre-orders, etc.)</p>
+    </div>
+  </div>
+</div>
+    
+    <hr>
+    
+<!--Craigslist Previews-->
+<div id="craigslist-project" class="container mt-5 text-center">
+    <h3>Craigslist Event Calendar Project</h3>
+    <p>This group project is about redesigning the imperfect Event Calendar on the infamous Craigslist website. <br> We took inspiration from vintage phone dials to develop our main idea of the design. <br> It is a event calendar with an interesting and unique spinning wheel design.</p>
+  <div class="row">
+    <div class="col-lg-4 p-3"> <img id="modal-img" class="modal-images img-fluid" src="images/CCT480 Home.png" alt="Spinning Wheel Event Calendar Design">
+      <h4>Spinning Wheel Event Calendar Design</h4>
+        <p>The event calendar is in the shape of a spinning wheel.</p>
+    </div>
+      <div class="col-lg-4 p-3"> <img id="modal-img" class="modal-images img-fluid" src="images/CCT480 Preview.png" alt="Userflow map of the calendar">
+      <h4>Userflow Map</h4>
+        <p>The userflow map is to tell you what each feature on the design would do.</p>
+    </div>
+      <div class="col-lg-4 p-3"> <img id="modal-img" class="modal-images img-fluid" src="images/CCT480 Alt.png" alt="Alternative design">
+      <h4>Alternative Design</h4>
+        <p>Except for the spinning wheel design, we also designed an alternative look.</p>
+    </div>
+  </div>
+</div>
+    
+    <hr>
+    
+<!--Elevator Previews-->
+<div id="elevator-project"  class="container mt-5 text-center">
+    <h3>Elevator Remote Application Project</h3>
+    <p>This project is about designing a elevator remote control concept that is convenient for people in the COVID-19 pandemic.<br> We ended up desinging the elevator interior as well as extriors, moreover, we designed an app interface that works with the elevator. </p>
+  <div class="row">
+    <div class="col-lg-4 p-3"> <img id="modal-img" class="modal-images img-fluid" src="images/Elevator Exterior.png" alt="Elevator Exterior">
+      <h4>Elevator Exterior</h4>
+        <p>We designed the elevator exterior with foot pedals to replace the elevator calling buttons.</p>
+    </div>
+      <div class="col-lg-4 p-3"> <img id="modal-img" class="modal-images img-fluid" src="images/Elevator Interior.png" alt="Elevator Interior">
+      <h4>Elevator Interior</h4>
+        <p>We designed the elevator interior with a screen that shows QR code for scanning and selecting floor via smartphone application.</p>
+    </div>
+      <div class="col-lg-4 p-3"> <img id="modal-img" class="modal-images img-fluid" src="images/Storyboard.png" alt="Smartphone Application Storyboard">
+      <h4>Smartphone Application Storyboard</h4>
+        <p>This includes all the interfaces we designed for the smartphone application.</p>
+    </div>
+  </div>
+</div>
+    
+    <div class="h-divider">
+    <hr/>
+    </div>
+    
+  <!-- Back to top button-->
+    <a href="#top"><button type="button" id="back-to-top" class="btn btn-primary btn-floating" style="background-color: #E0E9F1; border: #E0E9F1; color: black;">
+               <i class="bi bi-arrow-up-square-fill"></i>
+                Back To Top
+        </button>
+    </a>
+    
+ <!--Footer-->
+<div class="myFooter container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-4 myFooter-content" style="text-align: left;">
+          <h4>David Ruan's Portfolio</h4>
+          <p>David (Junlong Ruan) Ruan's personal website including personal projects and works.</p>
+	  </div>
+        
+        <div class="splitter-outer">
+            <div class="splitter-inner"></div>
+        </div>
+        
+      <div class="col-4 myFooter-content" style="text-align: center;">
+          <h4>Contact Information</h4>
+          <p style="text-align: justify;">Phone: 123-456-7890<br>E-Mail: davidruan321@outlook.com<br>Location: Richmond Hill</p>
+	  </div>
+      <div class="col-4" style="text-align: right;">
+	  
+	  
+	  </div>
+    </div>
+          
+  </div>
+    
+</div>
+    <div class="container copyright-content"> 
+    <p style="text-transform: uppercase;">© David Ruan's Portfolio</p><p style="font-family: 'Dosis', Serif;">Designed by David Ruan</p>
+    </div>
+</body>
+
+<!-- Javascript Bundle-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<!-- Other Scripts-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<!-- My custom Javascript-->
+<script src="js/projects-js.js"></script>
+
+
+
+</html>

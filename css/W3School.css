@@ -1,0 +1,143 @@
+/* CSS Style sheet */
+body, html {
+  height: 100%;
+  font-family: 'Spectral', Serif;
+  
+}
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    min-height: 500px;
+}
+.bgimg-1 {
+  background-image: url("../images/UTM Deerfield.jpg");
+	opacity: 75%;
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("../images/background.webp");
+  opacity: 0.65;
+}
+.bgimg-3 {
+  background-image: url("../images/UTM DF Scoccer field .jpg");
+  opacity: 0.65;
+}
+.bgimg-4 {
+  background-image: url("../images/UTM Deerfield.jpg");
+  opacity: 0.65;
+}
+
+
+.parallax-header {
+  position: absolute;
+  left: 1%;
+  top: 5%;
+  text-align: center;
+  font-family: 'IBM Plex Serif', sans-serif;
+  font-size: 8em;
+  color: black;
+    text-shadow: 3px 3px 2px white;
+}
+
+.parallax-header a{
+	text-decoration: none;
+	color: black;
+}
+
+.parallax-header a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.parallax-subheader {
+  position: absolute;
+  right: 28%;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font: 3em 'IBM Plex Serif', sans-serif;
+  color: black;
+   text-shadow: 3px 3px 2px white;
+}
+
+.parallax-title {
+	text-decoration: none;
+	color:white;
+	transition:.5s
+}
+.parallax-title:hover{
+	transition: .5s;
+	text-decoration: none;
+	color:#717171;
+}
+
+
+.parallax-center-button {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+    font-weight: 900;
+    font-family: 'Spectral', serif;
+}
+
+.parallax-center-button a{
+  text-decoration: none;
+    color: white;
+}
+
+.parallax-border{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+      background-color: #CAD7E0;
+  color: #000000;
+  padding: 18px;
+  letter-spacing: 5px;
+    transition: .5s;
+    font-size: 2em;
+}
+.parallax-border:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFFFFF;
+      background-color: #8BAFCA;
+  padding: 15px;
+  letter-spacing: 3px;
+    transition: .5s;
+}
+
+
+.parallax-content{
+}
+
+.parallax-content div{
+    text-align: center;
+}
+.parallax-content h3 {
+  font: 2em 'Spectral', sans-serif;
+  color: #000000;
+    font-weight: 700;
+}
+.parallax-content p {
+    font-family: 'Spectral', Serif;
+    font-size: 21px;
+  color: black;
+    font-weight: 500;
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}

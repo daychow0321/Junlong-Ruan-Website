@@ -1,0 +1,357 @@
+/*Bootstrap Icons Import*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+/*Font Import */
+
+/*Dosis Medium 400， IBM Plex Serif, Merryweather*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=IBM+Plex+Serif&family=Merriweather:wght@400;700&family=Spectral&display=swap');
+
+html{
+	scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body p{
+  font-family: 'Spectral', sans-serif;
+	font-size: 16px;
+}
+
+.title-banner{
+    background-image: url("../images/taylor-leopold-COE-CIGj8VA-unsplash.jpg");
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    display: inline-block;
+}
+
+.banner-button{
+    font-size: 3em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/*  */
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #000000;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* */
+
+.h-divider{
+    padding: 10px 200px;
+}
+
+.nav-item{
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.nav-item:hover{
+    background-color: #E0E9F1;
+    transition: .5s;
+    font-weight: 900;
+}
+
+.dropdown-item{
+transition: .5s;    
+}
+
+
+.dropdown-item:hover{
+    background-color: #E0E9F1;
+    transition: .5s;
+}
+
+.navbar-brand{
+    width:120px; 
+    height: 80px; 
+    object-fit: cover;
+    transition: .5s;
+}
+.navbar-brand:hover{
+    width:150px; 
+    height: 100px; 
+    object-fit: cover;
+    transition: .5s;
+}
+
+.projects-banner{
+    
+}
+
+.project-img:hover{
+    opacity: 70%;
+    transition: .2s;
+}
+
+.project-links{
+    font-family: 'Dosis', Sans-serif;
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.project-links:hover{
+    color: grey;
+    transition: .2s;
+}
+
+
+.myFooter{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.myFooter-content{
+    
+}
+
+.splitter-outer {
+  width: 1px;
+  position:relative;
+}
+.splitter-inner {
+  position: absolute;
+  height: 100%;
+  box-shadow: 0px 0px 0px 1px #8EB1CB;
+}
+
+.myFooter h4{
+    text-transform: uppercase;
+}
+.myFooter p{
+    color: #5F5F5F;
+}
+
+.copyright-content{
+    height: 100px;
+}
+
+.copyright-content p{
+    font-size: 1.1em;
+    position: relative;
+    left: 4%;
+    color: #8E8E8E;
+}
+
+
+.popover{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em;
+	width: auto;
+}
+
+
+.resume-container svg{
+    text-decoration: none;
+    color: black;
+}
+
+.spotlight {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.spotlight-title {
+  font-size: 12em;
+}
+.shoutout {
+  margin: 50px;
+  font-family: 'IBM Plex Serif', sans-serif;
+  font-size: 2em;
+  color: #1F1F1F;
+  line-height: 1.5em;
+}
+.img-fluid {
+  object-fit: cover;
+}
+
+.carousel{
+    width: 70%;
+}
+
+.carousel-caption{
+    color: black;
+    backdrop-filter: blur(8px);
+    font-size: 3em;
+    font-family: 'IBM Plex Serif', sans-serif;
+}
+
+.carousel-images {
+  object-fit: cover;
+    max-height: 700px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-color: black;
+}
+
+#back-to-top{
+    position: fixed;
+bottom: 15%;
+left: 5%;
+}
+
+
+
+#modal-img {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#modal-img:hover {
+    opacity: 0.7;
+}
+.modal-images{
+    height: 250px;
+}
+
+
+.photogrid-modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+.photogrid-modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.modal-close {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .photogrid-modal-content {
+        width: 100%;
+    }
+}
+
+.photogrid-text{
+    position: relative;
+    text-align: center;
+    color:rgba(98,154,214,1);
+    font-size: 2.5em;
+    font-family: 'trispace', sans-serif;
+}
+
+.modal-images:hover + .photogrid-bottom{
+    display: block;
+    transition: 0.5s;
+}
+
+.photogrid-bottom{
+    display: none;
+    position: absolute;
+    left:5%;
+    bottom:5%;
+    display: none;
+    transition: 0.5s;
+}
+
+
+
+
+.process-page-link{
+    text-decoration: underline;
+    color: inherit;
+    
+}
+.process-page-link:hover{
+    text-decoration: none;
+    color: #626262;
+    
+}
+
+
+
+
