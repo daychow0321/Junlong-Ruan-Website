@@ -3,8 +3,7 @@
 
 /*Font Import */
 
-/*Dosis Medium 400， IBM Plex Serif, Merryweather*/
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=IBM+Plex+Serif&family=Merriweather:wght@400;700&family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
 
 html{
 	scroll-behavior: smooth;
@@ -12,8 +11,9 @@ html{
 }
 
 body p{
-  font-family: 'Spectral', sans-serif;
-	font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+	font-size: 15px;
+    font-weight:300;
 }
 
 .title-banner{
@@ -76,18 +76,35 @@ body p{
     padding: 10px 200px;
 }
 
+.navbar{
+    background-color:white; 
+    height:60px;
+    width: 90%;
+}
+
+.nav-brandname{
+    font-size: 1.1em;
+    color: #373737; 
+}
+
 .nav-item{
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 10px;
+    padding: px;
     border-radius: 5px;
     transition: .5s;
 }
+
 .nav-item:hover{
-    background-color: #E0E9F1;
+    background-color: #e8eff5;
     transition: .5s;
-    font-weight: 900;
+}
+
+
+.dropdown-menu{
+    border: 0px;
+    top: 1px;
 }
 
 .dropdown-item{
@@ -96,22 +113,16 @@ transition: .5s;
 
 
 .dropdown-item:hover{
-    background-color: #E0E9F1;
+    background-color: #e9f0f7;
     transition: .5s;
 }
 
 .navbar-brand{
-    width:120px; 
-    height: 80px; 
+    width:60px;  
     object-fit: cover;
     transition: .5s;
 }
-.navbar-brand:hover{
-    width:150px; 
-    height: 100px; 
-    object-fit: cover;
-    transition: .5s;
-}
+
 
 .projects-banner{
     

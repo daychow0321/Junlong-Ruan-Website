@@ -16,10 +16,10 @@
 <body>
 
 <!-- Navigation Bar-->
-<nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0" style="background-color:white; height:100px;">
-  <div class="container-fluid"><a class="navbar-brand" href="index.html"><img alt="Logo" src="Logo/logo simplified.svg"></a>
+<nav class="container-fluid navbar navbar-expand-lg navbar-light pt-0 pb-0">
+  <div class="container-fluid mt-2"><a class="navbar-brand" href="index.html"><img alt="Logo" src="Logo/logo simplified.svg"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="mt-3"><h1>David Ruan</h1></div>
+      <div class="nav-brandname">David Ruan's Portfolio</div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
@@ -27,6 +27,7 @@
         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Projects </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="workdetail.html">Mock Business Website</a></li>
+              <li><a class="dropdown-item disabled" href="#">Hoopers Drink Brandbook</a></li>
             <li><a class="dropdown-item disabled" href="#">COVID-19 Elevator Remote</a></li>
             <li><a class="dropdown-item disabled" href="#">UTM iCCIT Website Rennovation</a></li>
             <li><a class="dropdown-item disabled" href="#">Personal Websites</a></li>
@@ -35,7 +36,9 @@
             </li>
             <li><a class="dropdown-item" href="projects.html">View All Projects</a></li>
           </ul>
-        </li><li class="nav-item"> <a class="nav-link" href="resume.html">Resume</a> </li>
+        </li>
+        
+        <li class="nav-item"> <a class="nav-link" href="resume.html">Resume</a> </li>
         
         <!-- <li class="nav-item"><a class="nav-link" href="process.html">Process</a> </li> -->
       </ul>
@@ -45,16 +48,17 @@
 
 <!-- Parallax Scrolling effects Code From W3School: https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm -->
 
-<div class="bgimg-1" id="Home">
+<div class="bgimg-1 container-fluid" id="Home">
      <!--Text animations from https://tobiasahlin.com/moving-letters/-->
-  <div class="parallax-header homeAni">David Ruan</div>
-  <div class="parallax-subheader homeAni2">An Inspiring Web Crafter</div>
+  <div class="col-12" style="height: 450px;"></div>
+  <h1 class="col-12 parallax-header homeAni">David Ruan</h1>
+  <h2 class="col-12 parallax-subheader homeAni2">An Inspiring Web Crafter and UX Designer</h2>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
 </div>
     
 <div class="parallax-content" id="Home-description" style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
   <div class="row">
-        <div class="col-6 col-12-sm">
+        <div class="col-lg-6 col-sm-12">
         <h3 style="text-align:center;" >About Me</h3>
         <p>Hi, my name is Junlong Ruan, but you can call me David.<br>
 
@@ -64,8 +68,8 @@ I also studied Linguistics major.<br>
 
 I like playing basketball, building custom keyboards, travelling and sneakers.</p>
         </div>
-        <div class="col-6 col-12-sm img-fluid" >
-        <img style="object-fit: cover; max-height: 300px;" src="images/selfie.JPG" alt="My picture of me smiling">
+        <div class="col-lg-6 col-sm-12 img-fluid" >
+        <img style="object-fit: cover; max-height: 300px;" src="images/formal photo.jpg" alt="David Ruan's formal photograph">
         </div>
     </div>
 </div>
