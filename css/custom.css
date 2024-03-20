@@ -13,17 +13,19 @@ html{
 body p{
     font-family: 'Poppins',sans-serif;
 	font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .title-banner{
+    padding-left: 10%;
+    padding-top: 5%;
     background-image: url("../images/taylor-leopold-COE-CIGj8VA-unsplash.jpg");
-    height: 100%;
+    height: 85%;
     object-fit: cover;
     position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   background-size: cover;
     display: inline-block;
 }
@@ -38,8 +40,11 @@ body p{
 
 /*  */
 .ml11 {
-  font-weight: 700;
-  font-size: 3.5em;
+    text-align: left;
+    font-family: serif;
+    font-size: 4em;
+    color: black;
+    text-shadow:2px 2px 4px #717171;
 }
 
 .ml11 .text-wrapper {
@@ -78,7 +83,7 @@ body p{
 
 .navbar{
     background-color:white; 
-    height:60px;
+    height:auto;
     width: 90%;
 }
 
@@ -89,8 +94,8 @@ body p{
 
 .nav-item{
     font-size: 1em;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding: px;
     border-radius: 5px;
     transition: .5s;
@@ -101,20 +106,36 @@ body p{
     transition: .5s;
 }
 
+.nav-link{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 
 .dropdown-menu{
+    padding: 0;
     border: 0px;
     top: 1px;
+    margin: 0;
 }
 
 .dropdown-item{
-transition: .5s;    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: .5s;    
 }
 
 
 .dropdown-item:hover{
     background-color: #e9f0f7;
     transition: .5s;
+}
+
+.dropdown-divider{
+    margin: 2px 1px;
 }
 
 .navbar-brand{
@@ -146,13 +167,14 @@ transition: .5s;
 
 
 .myFooter{
+    width: 85%;
     background-color: white;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.myFooter-content{
-    
+.myFooter-content p{
+    color: #8e8e8e;
 }
 
 .splitter-outer {
@@ -166,11 +188,10 @@ transition: .5s;
 }
 
 .myFooter h4{
+    color: #000000;
     text-transform: uppercase;
 }
-.myFooter p{
-    color: #5F5F5F;
-}
+
 
 .copyright-content{
     height: 100px;
@@ -190,6 +211,11 @@ transition: .5s;
 	width: auto;
 }
 
+.resume-container{
+    width: 85%;
+    padding: auto;
+    text-align: center;
+}
 
 .resume-container svg{
     text-decoration: none;
@@ -211,7 +237,8 @@ transition: .5s;
   font-size: 12em;
 }
 .shoutout {
-  margin: 50px;
+    width: 85%;
+    margin: 50px auto;
   font-family: 'IBM Plex Serif', sans-serif;
   font-size: 2em;
   color: #1F1F1F;

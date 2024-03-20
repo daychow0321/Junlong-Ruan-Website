@@ -32,9 +32,8 @@ body, html {
 }
 
 .bgimg-1 h1 ,.bgimg-1 h2{
-  max-width: 700px;
-position: relative;
-left: 10%;
+  position: relative;
+  padding-left: 10%;
 }
 
 .parallax-header {
