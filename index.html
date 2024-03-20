@@ -17,14 +17,19 @@
 
 <!-- Navigation Bar-->
 <nav class="container-fluid navbar navbar-expand-lg navbar-light pt-0 pb-0">
-  <div class="container-fluid mt-2"><a class="navbar-brand" href="index.html"><img alt="Logo" src="Logo/logo simplified.svg"></a>
+  <div class="container-fluid">
+    
+    <a class="navbar-brand" href="index.html"><img alt="Logo" src="Logo/logo simplified.svg"></a>
+        
+    <div class="nav-brandname">David Ruan's Portfolio</div>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="nav-brandname">David Ruan's Portfolio</div>
+
+    
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
-          
-        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Projects </a>
+        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true"> Projects </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="workdetail.html">Mock Business Website</a></li>
               <li><a class="dropdown-item disabled" href="#">Hoopers Drink Brandbook</a></li>
@@ -48,69 +53,71 @@
 
 <!-- Parallax Scrolling effects Code From W3School: https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm -->
 
-<div class="bgimg-1 container-fluid" id="Home">
-     <!--Text animations from https://tobiasahlin.com/moving-letters/-->
+<div class="container-fluid bgimg-1" id="Home">
+  <!--Blank Space-->
   <div class="col-12" style="height: 450px;"></div>
+
+     <!--Text animations from https://tobiasahlin.com/moving-letters/-->
   <h1 class="col-12 parallax-header homeAni">David Ruan</h1>
   <h2 class="col-12 parallax-subheader homeAni2">An Inspiring Web Crafter and UX Designer</h2>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
 </div>
-    
-<div class="parallax-content" id="Home-description" style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <div class="row">
-        <div class="col-lg-6 col-sm-12">
+
+
+<div class="parallax-content" id="Home-description">
+  <div class="container-fluid row">
+        <div class="col-lg-6 col-sm-12 container-fluid">
         <h3 style="text-align:center;" >About Me</h3>
-        <p>Hi, my name is Junlong Ruan, but you can call me David.<br>
+        <p>Hi, my name is Junlong Ruan, you can call me David.<br>
 
-I am a graduate under CCIT major in University of Toronto Mississauga. My main subjects were Web Design, UX design.<br>
+        I am a graduate under CCIT major in University of Toronto Mississauga. My main subjects were Web Design, UX design.<br>
 
-I also studied Linguistics major.<br>
+        I also studied Linguistics major.<br>
 
-I like playing basketball, building custom keyboards, travelling and sneakers.</p>
+        I love playing basketball, building custom keyboards, travelling and sneakers.</p>
         </div>
-        <div class="col-lg-6 col-sm-12 img-fluid" >
-        <img style="object-fit: cover; max-height: 300px;" src="images/formal photo.jpg" alt="David Ruan's formal photograph">
+        <div class="col-lg-6 col-sm-12 img-fluid">
+        <img style="object-fit:cover; max-height: 300px;" src="images/formal photo.jpg" alt="David Ruan's formal photograph">
         </div>
     </div>
 </div>
+
+
 <div class="bgimg-2" id="Projects-Preview">
-  <div class="parallax-center-button" href="projects.html"><a href="projects.html" ><span class="parallax-border"  tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Click to view my projects now!"  href="projects.html">My Projects</span></a> </div>
+  <div class="parallax-center-button" href="projects.html"><a href="projects.html" ><span class="button-style"  tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Click to view my projects now!"  href="projects.html">My Projects</span></a> </div>
 </div>
-<div class="parallax-content" style="position:relative;">
-    
-    <div style="color:#ddd;background-color:white;text-align:center;padding:50px 80px;"> 
-        <div>
+
+
+<div class="parallax-content" style="position:relative;"> 
         <h3><a class="parallax-title" href="projects.html"></a></h3>
         <p>
         <p>In this page, you will find several projects that I have done, individually or in teams, inside/outside of school. <br>These projects include designing a remote elevator control app, redesigning an institution webpage for my university and etc..</p>
         <br>
         <p>Click into "My Projects" to find out more about them!!!</p>
         </p>
-        </div>
-    </div>
-    
 </div>
+
+
 <div class="bgimg-3">
-  <div class="parallax-center-button" href="projects.html"><a href="resume.html" ><span class="parallax-border"  tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Check out my resume!" href="resume.html">See My Resume</span></a> </div>
+  <div class="parallax-center-button" href="projects.html"><a href="resume.html" ><span class="button-style"  tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Check out my resume!" href="resume.html">See My Resume</span></a> </div>
 </div>
+
+
 <div class="parallax-content" style="position:relative;">
-    
-    <div style="color:#ddd;background-color:white;text-align:center;padding:50px 80px;"> 
-        <div>
+      
         <h3><a class="parallax-title" href="resume.html"></a></h3>
         <p>
         <p>Welcome to where I will present my resume<br>Of course, it will tell you what I am good at and my out-standing qualities as a <b>web designer</b> and <b>UX designer</b></p>
         <br>
         <p>Click into "See My Resume" to find out more about them!!!</p>
         </p>
-        </div>
-    </div>
+        
 </div>
     
 <div class="bgimg-4">
     <div class="row">
         <div class="col-4">
-            <div class="parallax-center-button"> <span class="parallax-border">Thank you</span> 
+            <div class="parallax-center-button"> <span class="button-style">Thank you</span> 
             </div>
         </div>
     </div>

@@ -3,6 +3,7 @@
 
 body, html {
   height: 85%;
+  width: 100%;
 }
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
   position: relative;
@@ -31,12 +32,12 @@ body, html {
 }
 
 .bgimg-1 h1 ,.bgimg-1 h2{
+  max-width: 700px;
 position: relative;
 left: 10%;
 }
 
 .parallax-header {
-  bottom: 0;
   text-align: left;
   font-family: serif;
   font-size: 4em;
@@ -88,34 +89,43 @@ left: 10%;
   text-decoration: none;
 }
 
-.parallax-border{
-      background-color: #dbe1e5;
+.parallax-center-button:hover .button-style{
+  bottom: 5px;
+}
+
+.button-style{
+  background-color: #dbe1e5;
   color: #000000;
   padding: 15px;
-    font-size: 20px;
+  font-size: 20px;
 }
-.parallax-border:hover{
+.button-style:hover{
   position: relative;
   bottom: 1px;
   background-color: #919191;
+  transition: 1s;
 }
 
 
 .parallax-content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-content: center;
 }
 
-.parallax-content div{
-    text-align: center;
-}
 .parallax-content h3 {
   color: #000000;
-    font-weight: 500;
+  font-weight: 500;
 }
+
 .parallax-content p {
+  text-align: center;
   line-height: 2.5;
     font-size: 15px;
-  color: rgb(21, 21, 21);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 

@@ -13,7 +13,7 @@ html{
 body p{
     font-family: 'Poppins',sans-serif;
 	font-size: 15px;
-    font-weight:300;
+    font-weight: 500;
 }
 
 .title-banner{
@@ -219,6 +219,7 @@ transition: .5s;
 }
 .img-fluid {
   object-fit: cover;
+  text-align: center;
 }
 
 .carousel{
